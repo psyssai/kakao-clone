@@ -88,7 +88,7 @@
 }
 
 .chat__contents input {
-  width: 80%;
+  width: 70%;
   border: none;
 }
 .chat__contents input:focus {
