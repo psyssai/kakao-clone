@@ -1,0 +1,29 @@
+.friends__header {
+  border-bottom: 1px solid #f6f6f6;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.friends__title {
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.friends__plus {
+  border-bottom: 1px solid #f6f6f6;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.friends__friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend__music {
+  font-size: 14px;
+  border: 2px solid #52e084;
+  padding: 5px;
+  border-radius: 20px;
+}

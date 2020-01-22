@@ -1,0 +1,19 @@
+.friend__avatar {
+  display: flex;
+  align-items: center;
+}
+
+.friend__contents {
+  margin-left: 20px;
+}
+
+.friend__name {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.friend__text,
+.friend__msg {
+  font-size: 12px;
+  opacity: 0.6;
+}

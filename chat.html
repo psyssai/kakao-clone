@@ -5,13 +5,14 @@
     <meta name="author" content="PSY" />
     <!-- 홈페이지 검색시에 요약글 -->
     <meta name="decription" content="Welcome to my Kakao clone" />
-    <title>Chats | Kakao Clone</title>
+    <title>Chat | Kakao Clone</title>
     <script
       src="https://kit.fontawesome.com/2d41b8df8d.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
-  <body>
+  <body class="chat-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <div class="status-bar__clock">13:53</div>
@@ -27,7 +28,7 @@
     <header class="header">
       <div class="header__column">
         <i class="fas fa-arrow-left"></i>
-        <h1 class="header__title">Best Friend</h1>
+        <span class="header__title">Best Friend</span>
       </div>
       <div class="header__column">
         <span class="header__icon">
@@ -37,19 +38,24 @@
       </div>
     </header>
     <main class="chat">
-      <div class="chat__date">FRIDAY, JANUARY 11, 2019</div>
+      <div class="chat__date-container">
+        <div class="chat__date">FRIDAY, JANUARY 11, 2019</div>
+      </div>
+
       <div class="chat__recieve">
         <div class="chat__avatar">
           <img src="avatar.jpg" class="friend__img friend__img_size-smallest" />
         </div>
         <div class="chat__info">
-          <div class="chat__message">Congrats I love you</div>
           <div class="chat__relation">Best friend</div>
+          <div class="chat__message">Congrats I love you</div>
         </div>
       </div>
 
       <div class="chat__send">
-        <div class="chat__message">Thank you see you soon!</div>
+        <div class="chat__send-container">
+          <div class="chat__message">Thank you see you soon!</div>
+        </div>
       </div>
 
       <div class="chat__recieve">
@@ -57,8 +63,14 @@
           <img src="avatar.jpg" class="friend__img friend__img_size-smallest" />
         </div>
         <div class="chat__info">
-          <div class="chat__message">Congrats I love you</div>
           <div class="chat__relation">Best friend</div>
+          <div class="chat__message">Congrats I love you</div>
+        </div>
+      </div>
+
+      <div class="chat__send">
+        <div class="chat__send-container">
+          <div class="chat__message">Thank you see you soon!</div>
         </div>
       </div>
       <div class="chat__contents">
@@ -73,6 +85,65 @@
         <div class="contents__icons">
           <i class="far fa-smile-wink"></i>
           <i class="fas fa-microphone"></i>
+        </div>
+        <div class="chat__keybord">
+          <div class="chat__row-1">
+            <div class="chat__keybord-num">1</div>
+            <div class="chat__keybord-num">2</div>
+            <div class="chat__keybord-num">3</div>
+            <div class="chat__keybord-num">4</div>
+            <div class="chat__keybord-num">5</div>
+            <div class="chat__keybord-num">6</div>
+            <div class="chat__keybord-num">7</div>
+            <div class="chat__keybord-num">8</div>
+            <div class="chat__keybord-num">9</div>
+            <div class="chat__keybord-num">0</div>
+          </div>
+
+          <div class="chat__row-2">
+            <div class="chat__keybord-alpha">q</div>
+            <div class="chat__keybord-alpha">w</div>
+            <div class="chat__keybord-alpha">e</div>
+            <div class="chat__keybord-alpha">r</div>
+            <div class="chat__keybord-alpha">t</div>
+            <div class="chat__keybord-alpha">y</div>
+            <div class="chat__keybord-alpha">u</div>
+            <div class="chat__keybord-alpha">i</div>
+            <div class="chat__keybord-alpha">o</div>
+            <div class="chat__keybord-alpha">p</div>
+          </div>
+          <div class="chat__row-3">
+            <div class="chat__keybord-alpha">a</div>
+            <div class="chat__keybord-alpha">s</div>
+            <div class="chat__keybord-alpha">d</div>
+            <div class="chat__keybord-alpha">f</div>
+            <div class="chat__keybord-alpha">g</div>
+            <div class="chat__keybord-alpha">h</div>
+            <div class="chat__keybord-alpha">j</div>
+            <div class="chat__keybord-alpha">k</div>
+            <div class="chat__keybord-alpha">l</div>
+          </div>
+          <div class="chat__row-4">
+            <div class="chat__keybord-shift">
+              <i class="fas fa-arrow-up"></i>
+            </div>
+            <div class="chat__keybord-alpha">z</div>
+            <div class="chat__keybord-alpha">x</div>
+            <div class="chat__keybord-alpha">c</div>
+            <div class="chat__keybord-alpha">v</div>
+            <div class="chat__keybord-alpha">b</div>
+            <div class="chat__keybord-alpha">n</div>
+            <div class="chat__keybord-alpha">m</div>
+            <div class="chat__keybord-back">
+              <i class="fas fa-backspace"></i>
+            </div>
+          </div>
+          <div class="chat__row-5">
+            <div class="chat__keybord-space">]</div>
+            <div class="chat__keybord-enter">
+              <i class="fas fa-level-down-alt"></i>
+            </div>
+          </div>
         </div>
       </div>
     </main>

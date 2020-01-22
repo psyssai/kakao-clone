@@ -1,0 +1,40 @@
+.nav {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 0px 40px;
+  background-color: #fcfcfc;
+  border: 1px solid #f7f7f7;
+  height: 60px;
+}
+
+.nav .nav__list {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav i {
+  font-size: 20px;
+}
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .msg__num {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 10px;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

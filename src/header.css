@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header .header__column i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.header .header__title {
+  font-size: 26px;
+  font-weight: 600;
+}

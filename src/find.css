@@ -1,0 +1,46 @@
+.find__header {
+  border-bottom: 1px solid #f6f6f6;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+.find__header .find__buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.find__buttons .find__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.find__button i {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.find__button .find__button-name {
+  opacity: 0.6;
+}
+
+.friends__recommended {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends__title {
+  margin-bottom: 20px;
+}
+
+.friend__add {
+  background-color: #f6f6f6;
+  width: 45px;
+  height: 35px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

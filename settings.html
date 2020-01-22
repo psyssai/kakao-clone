@@ -10,8 +10,9 @@
       src="https://kit.fontawesome.com/2d41b8df8d.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
-  <body>
+  <body class="settings-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <div class="status-bar__clock">13:53</div>
@@ -27,7 +28,7 @@
     <header class="header">
       <div class="header__column">
         <i class="fas fa-arrow-left"></i>
-        <h1 class="header__title">Settings</h1>
+        <span class="header__title">Settings</span>
       </div>
       <div class="header__column">
         <span class="header__icon">
@@ -53,18 +54,20 @@
         </ul>
       </div>
       <div class="settings__sections">
-        <li class="settings__setting">
-          <i class="fas fa-lock"></i>
-          <h5 class="settings__title">Privacy</h5>
-        </li>
-        <li class="settings__setting">
-          <i class="far fa-bell"></i>
-          <h5 class="settings__title">Notifications</h5>
-        </li>
-        <li class="settings__setting">
-          <i class="far fa-user"></i>
-          <h5 class="settings__title">Friends</h5>
-        </li>
+        <ul class="settings__list">
+          <li class="settings__setting">
+            <i class="fas fa-lock"></i>
+            <h5 class="settings__title">Privacy</h5>
+          </li>
+          <li class="settings__setting">
+            <i class="far fa-bell"></i>
+            <h5 class="settings__title">Notifications</h5>
+          </li>
+          <li class="settings__setting">
+            <i class="far fa-user"></i>
+            <h5 class="settings__title">Friends</h5>
+          </li>
+        </ul>
       </div>
     </main>
   </body>
